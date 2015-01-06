@@ -14,6 +14,7 @@
 		2ADCFEAB1A56020300FE69BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCFEAA1A56020300FE69BB /* Images.xcassets */; };
 		2ADCFEAE1A56020300FE69BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCFEAC1A56020300FE69BB /* LaunchScreen.xib */; };
 		2ADCFEBA1A56020300FE69BB /* Buttons_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCFEB91A56020300FE69BB /* Buttons_GameTests.m */; };
+		2ADCFEC41A561C2B00FE69BB /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCFEC31A561C2B00FE69BB /* Background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		2ADCFEB31A56020300FE69BB /* Buttons GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Buttons GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ADCFEB81A56020300FE69BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ADCFEB91A56020300FE69BB /* Buttons_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Buttons_GameTests.m; sourceTree = "<group>"; };
+		2ADCFEC31A561C2B00FE69BB /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Background.jpg; path = ../../../../../Desktop/Background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		2ADCFE9D1A56020300FE69BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2ADCFEC31A561C2B00FE69BB /* Background.jpg */,
 				2ADCFE9E1A56020300FE69BB /* Info.plist */,
 				2ADCFE9F1A56020300FE69BB /* main.m */,
 			);
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ADCFEA91A56020300FE69BB /* Main.storyboard in Resources */,
+				2ADCFEC41A561C2B00FE69BB /* Background.jpg in Resources */,
 				2ADCFEAE1A56020300FE69BB /* LaunchScreen.xib in Resources */,
 				2ADCFEAB1A56020300FE69BB /* Images.xcassets in Resources */,
 			);
@@ -346,6 +350,7 @@
 				INFOPLIST_FILE = "Buttons Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,6 +361,7 @@
 				INFOPLIST_FILE = "Buttons Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -412,6 +418,7 @@
 				2ADCFEBF1A56020300FE69BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ADCFEC01A56020300FE69BB /* Build configuration list for PBXNativeTarget "Buttons GameTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				2ADCFEC21A56020300FE69BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

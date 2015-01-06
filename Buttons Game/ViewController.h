@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+int Answer;
+@interface ViewController : UIViewController {
 
-@interface ViewController : UIViewController
+IBOutlet UIButton *Ask;
+    IBOutlet UILabel *Fortune;
 
+}
+-(IBAction)Ask:(id)sender;
 
 @end
 
